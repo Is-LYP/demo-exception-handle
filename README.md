@@ -2,6 +2,7 @@
 在日常项目开发过程中，异常总是在所难免，
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2020042523331427.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNzU4Mzc2Mw==,size_16,color_FFFFFF,t_70)
+
 这样的提示对用户来说非常不友好，我们可以采用以下方式对异常统一处理
 
 # 实现方式
@@ -181,6 +182,7 @@ public class GlobalErrorController implements ErrorController {
 }
 ```
 统一处理后页面提示信息如下：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200426233443393.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNzU4Mzc2Mw==,size_16,color_FFFFFF,t_70)
 ## 两种方式的区别
 两种方式都可以实现对后台异常的统一处理
